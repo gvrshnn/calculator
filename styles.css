@@ -3,6 +3,13 @@ body {
     justify-content: center;
     align-content: center;
     height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculator {
+    background-color: black;
+    padding: 25px;
+    border-radius: 30px;
 }
 
 .buttons {
@@ -14,13 +21,32 @@ body {
     "zero dot clear"
     "addition substraction equal"
     "multiply divide equal";
-    min-height: 300px;
-    min-width: 200px;
+    min-height: 350px;
+    min-width: 230px;
     row-gap: 10px;
     column-gap: 10px;
 }
 
-#result {text-align: right;}
+.action {background-color: rgb(253, 129, 84);}
+.action:hover {background-color: rgb(255, 158, 122);}
+.action:active {background-color: rgb(255, 137, 94);}
+
+.clean {background-color: rgb(155, 155, 155);}
+.clean:hover {background-color: rgb(190, 190, 190);}
+.clean:active {background-color: rgb(126, 126, 126);}
+
+button {
+    border-radius: 20px;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 20px;
+    border-style: hidden;
+}
+
+button:hover {background-color: rgb(126, 126, 126);}
+button:active {background-color: rgb(87, 87, 87);}
+
+#result {text-align: right; color: white; font-size: 40px;}
 #one {grid-area: one;}
 #two {grid-area: two;}
 #three {grid-area: three;}
@@ -38,4 +64,6 @@ body {
 #multiply {grid-area: multiply;}
 #divide {grid-area: divide;}
 #equal {grid-area: equal;}
+
+
 
