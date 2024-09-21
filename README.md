@@ -1,2 +1,2 @@
 # calculator
-simple calc
+[simple calc](https://gvrshnn.github.io/calculator/)
