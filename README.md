@@ -1,2 +1,2 @@
-# calculator
-[simple calc](https://gvrshnn.github.io/calculator/)
+Это минимальный рабочий прототип приложения "калькулятор"
+Математические операции выполняются при помощи eval
